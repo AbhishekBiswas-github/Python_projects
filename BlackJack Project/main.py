@@ -98,7 +98,11 @@ while want_to_play == 'y':
         computer_deck = card_draw(cards, computer_deck)
 
     # TODO 10: Compare user and computer scores and see if it's a win, loss, or draw.
-    if deck_total(user_deck) < 21:
+    if deck_total(computer_deck) == 21:
+        win_lose(False)
+    elif deck_total(user_deck) == 21:
+        win_lose(True)
+    elif deck_total(user_deck) < 21:
         if deck_total(computer_deck) == deck_total(user_deck):
             print("Draw")
         elif deck_total(computer_deck) > deck_total(user_deck) and deck_total(computer_deck) < 21:
@@ -108,8 +112,8 @@ while want_to_play == 'y':
     else:
         win_lose(False)
 
-    print(f"Computer's Deck: {computer_deck}, total score: {deck_total(computer_deck)}")
     print(f"User's Deck: {user_deck}, total score: {deck_total(user_deck)}")
+    print(f"Computer's Deck: {computer_deck}, total score: {deck_total(computer_deck)}")
 
     final_user_choice = input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower()
     if final_user_choice == 'y':
