@@ -3,19 +3,12 @@
 
 🚀 Excited to Share My Latest Python Project: Blackjack Game! 🃏
 
-BLACKJACK GAME
-
-
 This project uses below python skiils:
 
 1. Functions & Loops 🔄
-
 2. Conditional Statements ❓
-
 3. F-strings for clean and readable code 📜
-
 4. Essential Python modules like random & os 📦
-
 5. Breaking down the project into multiple, manageable tasks ✅
 
 #Python #Coding #GameDevelopment #LearningByDoing #Blackjack #Programming #Tech #PythonProgramming #DevJourney #TechInnovation #ProjectShowcase #LearningPython #DataScience #GameDev #TechSkills #CodeLife #SoftwareDevelopment #PythonProjects #ProgrammingCommunity #GamerDev #TechCareer #CodeChallenges #BuildInPublic #100DaysOfCode
