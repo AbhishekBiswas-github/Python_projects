@@ -11,18 +11,12 @@ employee = Employee()
 
 
 class MainSystem:
-    def __init__(self):
-        self.__employee_options = """Welcome Employee to the system.\n
-1. Show all employees.
-2. Show Attendance of all employees.
-3. Show attendance of specific employee."""
 
     def authenticate(self, designation, username, password):
         if designation == "admin":
             admin.login_status(username=username, password=password)
         elif designation == "employee":
             return_value = organization.authenticate(uname=username, word=password)
-            print(return_value)
             if return_value[0] == 1:
                 manager.set_my_details(return_value[1])
                 manager.show_options()
