@@ -21,6 +21,10 @@ The **Attendance Record System** is a Python-based project designed to streamlin
    - View personal attendance records.
    - Access detailed month-wise attendance for the entire year.
 
+## Complete Flowchart
+![Attendance Record System Flow Chart](https://github.com/user-attachments/assets/58d186bd-9cf6-4f83-a358-9561f74ff0b9)
+
+
 ## Secure Access:
 Users are required to log in with their credentials to access the system. Upon successful login, features are displayed based on the user’s role—Admin, Manager, or Employee—ensuring role-specific access and functionality.
 
